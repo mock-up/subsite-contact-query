@@ -46,8 +46,33 @@ thead, tfoot {
   /*text-transform: uppercase;*/
 }
 
+.nav>li.active {
+  background-color: #fff;
+}
+
+.navbar-nav>li>a {
+  color: #bbb;
+  text-decoration: none;
+}
+
+.navbar-nav>li>a:hover {
+  color: #aaa;
+  text-decoration: none;
+  background-color: #ddd;
+  color: #fff;
+}
+
+.navbar-nav>.active>a,
+.navbar-nav>.active>a:focus,
+.navbar-nav>.active>a:hover {
+  color: #bbb;
+  text-decoration: none;
+  background-color: transparent;
+}
+
 .navbar {
   background-color: rgb(242, 240, 237);
+  border-bottom: none;
 }
 
 .navbar-collapse.in {
@@ -57,11 +82,6 @@ thead, tfoot {
   overflow-x: visible;
   -webkit-overflow-scrolling: touch;
   border-top: none;
-}
-
-.navbar-nav>li>a:hover {
-  background-color: transparent;
-  text-decoration: underline;
 }
 
 .navbar-toggle {
@@ -216,7 +236,7 @@ thead, tfoot {
   color: rgb(242, 240, 237);
 }
 
-.footer-section a, a:hover, a:visited {
+.footer-section a, .footer-section a:hover, .footer-section a:visited {
   color: #aaa;
 }
 
