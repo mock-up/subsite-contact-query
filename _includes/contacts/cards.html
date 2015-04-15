@@ -1,0 +1,13 @@
+
+{% if site.data.contacts %}
+  <ul class="list">
+    {% for contact in site.data.contacts %}
+      <li>
+        <h3 class="name">{{ contact.name }}</h3>
+        <p class="organization">{{ contact.organization }}</p>
+        <p class="email">{{ contact.email }}</p>
+        <p class="phone">{{ contact.phone }}</p>
+      </li>
+    {% endfor %}
+  </ul>
+{% endif %}
