@@ -9,17 +9,22 @@ layout: default
 
   <div id="contact-list">
     <div class="row search-bar">
-      <form>
-        <div class="form-group">
-          <input class="search form-control" placeholder="Search Contacts">
-        </div>
-      </form>
-      <button class="sort btn btn-default" data-sort="name">
-        Sort by Name
-      </button>
-      <button class="sort btn btn-default" data-sort="email">
-        Sort by Email
-      </button>
+      <div class="col-lg-9">
+        <form>
+          <div class="form-group">
+            <input class="search form-control" placeholder="Search Contacts">
+          </div>
+        </form>
+      </div><!-- /.col -->
+
+      <div class="col-lg-3 hidden-xs hidden-sm">
+        <button class="sort btn btn-default" data-sort="name">
+          <i class="fa fa-user"></i>&nbsp;Sort by Name
+        </button>
+        <button class="sort btn btn-default" data-sort="email">
+          <i class="fa fa-envelope"></i>&nbsp;Sort by Email
+        </button>
+      </div><!-- /.col -->
     </div><!-- /.row -->
 
     <div class="row">

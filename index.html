@@ -14,14 +14,15 @@ layout: default
           <th class="hidden-xs hidden-sm">County</th>
           <th class="hidden-xs hidden-sm">Department</th>
           <th class="hidden-xs">Email</th>
-          <th>Phone</th>
-        </tr>
+          <th>Phone</th
+>        </tr>
       </thead>
       <tbody>
       {% for contact in site.data.contacts %}
         <tr>
           <td>{{ contact.name }}</td>
-          <td class="hidden-xs hidden-sm">{{ contact.organization }}</td>
+          <td class="hidden-xs hidden-sm">{{ contact.county }}</td>
+          <td class="hidden-xs hidden-sm">{{ contact.department }}</td>
           <td class="hidden-xs">{{ contact.email }}</td>
           <td>{{ contact.phone }}</td>
         </tr>

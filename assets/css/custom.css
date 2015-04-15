@@ -127,6 +127,13 @@ a:visited { color: rgb(196,87,15); }
 
 .panel {
   border-radius: 0px;
+  height: 230px;
+}
+
+@media (max-width: 768px) {
+  .panel {
+    height: inherit;
+  }
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -255,13 +262,13 @@ p.phone {
 
 @media (max-width: 768px) {
   .panel-heading {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 
 .search-bar {
   padding: 12px;
-  margin-bottom: 12px;
+  margin: 2px 2px 12px 2px;
   background: #f5f5f5;
   border: 1px solid #ddd;
 }

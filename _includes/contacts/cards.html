@@ -1,20 +1,77 @@
 
 {% if site.data.contacts %}
   <div class="list">
+    {% assign counter = 0 %}
     {% for contact in site.data.contacts %}
+      {% assign counter = counter | plus: 1 %}
       <div class="col-sm-6 col-md-4">
         <div class="panel panel-default contact-card">
+
           <div class="name panel-heading">
-            {{ contact.name }}
+            <i class="fa fa-user"></i>&nbsp;
+            <a href="#" data-toggle="modal" data-target="#contact-{{ counter }}">{{ contact.name }}</a>
           </div><!-- /.panel-heading -->
+
           <div class="panel-body">
-            <p class="county">{{ contact.county }}</p>
-            <p class="department">{{ contact.department }}</p>
-            <p class="email">{{ contact.email }}</p>
-            <p class="phone">{{ contact.phone }}</p>
+            <p class="county"><i class="fa fa-map-marker"></i>&nbsp;{{ contact.county }}</p>
+            <p class="department">
+              <i class="fa fa-building-o"></i>&nbsp;
+              {{ contact.department }}
+            </p>
+            <p class="email">
+              <i class="fa fa-envelope"></i>&nbsp;
+              <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
+            </p>
+            <p class="phone">
+              <i class="fa fa-phone"></i>&nbsp;
+              <a href="tel:+{{ contact.phone }}">{{ contact.phone }}</a>
+            </p>
           </div><!-- /.panel-body -->
+
         </div><!-- /.panel -->
       </div><!-- /.col -->
+
+      <div class="modal fade" id="contact-{{ counter }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title" id="myModalLabel">{{ contact.name }}</h4>
+            </div>
+            <div class="modal-body">
+              <p class="county"><i class="fa fa-map-marker"></i>&nbsp;{{ contact.county }}</p>
+              <p class="department">
+                <i class="fa fa-building-o"></i>&nbsp;
+                {{ contact.department }}
+              </p>
+              <p class="email">
+                <i class="fa fa-envelope"></i>&nbsp;
+                <a href="mailto:{{ contact.email }}">{{ contact.email }}</a>
+              </p>
+              <p class="phone">
+                <i class="fa fa-phone"></i>&nbsp;
+                <a href="tel:+{{ contact.phone }}">{{ contact.phone }}</a>
+              </p>
+              <p class="twitter">
+                <i class="fa fa-twitter"></i>&nbsp;
+                <a href="tel:+{{ contact.twitter }}">{{ contact.twitter }}</a>
+              </p>
+              <p class="facebook">
+                <i class="fa fa-facebook"></i>&nbsp;
+                <a href="tel:+{{ contact.facebook }}">{{ contact.facebook }}</a>
+              </p>
+              <h5>Notes:</h5>
+              <p class="notes">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec felis ut orci lobortis facilisis lacinia ac eros. Morbi non ullamcorper magna, ornare blandit augue. Curabitur vel dictum mauris. Morbi tristique tellus nec nisi molestie porttitor. Maecenas at viverra ex. Nunc vel metus porta, molestie tortor non, laoreet velit.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default"><i class="fa fa-envelope"></i></button>
+              <button type="button" class="btn btn-default"><i class="fa fa-phone"></i></button>
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
     {% endfor %}
   </div>
 {% endif %}
