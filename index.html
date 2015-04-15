@@ -25,8 +25,8 @@ layout: default
           <td><a href="#" data-toggle="modal" data-target="#contact-{{ counter }}">{{ contact.name }}</a></td>
           <td class="hidden-xs hidden-sm">{{ contact.county }}</td>
           <td class="hidden-xs hidden-sm">{{ contact.department }}</td>
-          <td class="hidden-xs">{{ contact.email }}</td>
-          <td>{{ contact.phone }}</td>
+          <td class="hidden-xs"><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></td>
+          <td><a href="tel:+{{ contact.phone }}">{{ contact.phone }}</a></td>
         </tr>
 
         <div class="modal fade" id="contact-{{ counter }}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
