@@ -4,15 +4,15 @@ layout: default
 
 <div class="container">
 <div class="row">
-  <h1 class="page-heading">Main Page</h1>
+  <h1 class="page-heading">Table View</h1>
 
   {% if site.data.contacts %}
     <table id="table-list" class="table table-striped table-bordered data-table" cellspacing="0" width="100%">
       <thead>
         <tr>
           <th>Name</th>
-          <th>Orgainization</th>
-          <th>Email</th>
+          <th class="hidden-xs hidden-sm">Orgainization</th>
+          <th class="hidden-xs">Email</th>
           <th>Phone</th>
         </tr>
       </thead>
@@ -20,8 +20,8 @@ layout: default
       {% for contact in site.data.contacts %}
         <tr>
           <td>{{ contact.name }}</td>
-          <td>{{ contact.organization }}</td>
-          <td>{{ contact.email }}</td>
+          <td class="hidden-xs hidden-sm">{{ contact.organization }}</td>
+          <td class="hidden-xs">{{ contact.email }}</td>
           <td>{{ contact.phone }}</td>
         </tr>
       {% endfor %}
@@ -29,8 +29,8 @@ layout: default
       <tfoot>
         <tr>
           <th>Name</th>
-          <th>Orgainization</th>
-          <th>Email</th>
+          <th class="hidden-xs hidden-sm">Orgainization</th>
+          <th class="hidden-xs">Email</th>
           <th>Phone</th>
         </tr>
       </tfoot>
