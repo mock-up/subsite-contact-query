@@ -2,8 +2,8 @@ $(document).ready(function() {
   $('.data-table').dataTable();
 
   var options = {
-    valueNames: [ 'name', 'city' ]
+    valueNames: [ 'name', 'born' ]
   };
 
-  var hackerList = new List('hacker-list', options);
+  var hackerList = new List('users', options);
 } );
