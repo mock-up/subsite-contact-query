@@ -3,21 +3,27 @@ layout: default
 ---
 
 <div class="container">
-<div class="row">
-  <h1 class="page-heading">Cards View</h1>
+  <div class="row">
+    <h1 class="page-heading">Cards View</h1>
+  </div><!-- /.row -->
 
   <div id="contact-list">
-    <input class="search" placeholder="Search">
-    <button class="sort" data-sort="name">
-      Sort by name
-    </button>
-    <button class="sort" data-sort="email">
-      Sort by email
-    </button>
+    <div class="row search-bar">
+      <form>
+        <div class="form-group">
+          <input class="search form-control" placeholder="Search Contacts">
+        </div>
+      </form>
+      <button class="sort btn btn-default" data-sort="name">
+        Sort by Name
+      </button>
+      <button class="sort btn btn-default" data-sort="email">
+        Sort by Email
+      </button>
+    </div><!-- /.row -->
 
-    {% include contacts/cards.html %}
-
-  </div>
-
-</div><!-- /.row -->
+    <div class="row">
+      {% include contacts/cards.html %}
+    </div><!-- /.row -->
+  </div><!-- /#contact-list -->
 </div><!-- /.container -->

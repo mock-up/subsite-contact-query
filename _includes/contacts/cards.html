@@ -2,13 +2,14 @@
 {% if site.data.contacts %}
   <div class="list">
     {% for contact in site.data.contacts %}
-      <div class="col-xs-6">
+      <div class="col-sm-6 col-md-4">
         <div class="panel panel-default contact-card">
           <div class="name panel-heading">
             {{ contact.name }}
           </div><!-- /.panel-heading -->
           <div class="panel-body">
-            <p class="organization">{{ contact.organization }}</p>
+            <p class="county">{{ contact.county }}</p>
+            <p class="department">{{ contact.department }}</p>
             <p class="email">{{ contact.email }}</p>
             <p class="phone">{{ contact.phone }}</p>
           </div><!-- /.panel-body -->

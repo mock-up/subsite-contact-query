@@ -1,79 +1,95 @@
 - name: Philip Bransford
-  organization: Washington County CAO
+  county: Washington County
+  department: CAO
   email: philip_bransford@co.washington.or.us
   phone: 503-846-8685
 
 - name: Cindy Downey
-  organization: Washington County Community Corrections
+  county: Washington County
+  department: Community Corrections
   email: Cindy_Downey@co.washington.or.us
   phone: 503-846-3456
 
 - name: Jodi Nielsen
-  organization: Washington County Cooperative Library Services
+  county: Washington County
+  department: Cooperative Library Services
   email: nielsen@wccls.org
   phone: 503-846-3525
 
 - name: Deborah Wood
-  organization: Washington County HHS Animal Services
+  county: Washington County
+  department: HHS Animal Services
   email: deborah_wood@co.washington.or.us
   phone: 503-846-7148
 
 - name: Deborah Letourneau
-  organization: Washington County HHS Department of Veteran Services
+  county: Washington County
+  department: HHS Department of Veteran Services
   email: deborah.l.letourneau@state.or.us
   phone: 503-846-3083
 
 - name: Brian Stafki
-  organization: Washington County Solid Waste and Recycling
+  county: Washington County
+  department: Solid Waste and Recycling
   email: brian_stafki@co.washington.or.us
   phone: 503-846-3651
 
 - name: Stephen Roberts
-  organization: Washington County LUT
+  county: Washington County
+  department: LUT
   email: stephen_roberts@co.washington.or.us
   phone: 503-846-4963
 
 - name: Marcy Allie
-  organization: Washington County Sheriff's Office
+  county: Washington County
+  department: Sheriff's Office
   email: Marcy_Allie@co.washington.or.us
   phone: 503-846-6307
 
 - name: Annette Evans
-  organization: Housing and Support Services Network
+  county:
+  department: Housing and Support Services Network
   email:
   phone: 503-846-4760
 
 - name: Glenn Montgomery, ED
-  organization: Vision Action Network
+  county:
+  department: Vision Action Network
   email: glenn_montgomeryco.washington.or.us
   phone: 503-846-5792
 
 - name: Jodi Nielsen
-  organization: Washington County Cooperative Library Services
+  county: Washington County
+  department: Cooperative Library Services
   email: nielsen@wccls.org
   phone: 503-846-3235
 
 - name: Pam Treece, ED
-  organization: Westside Economic Alliance
+  county:
+  department: Westside Economic Alliance
   email: ptreece@westsdiealliance.org
   phone: 503-968-3100
 
 - name: Lisa Frank
-  organization: Bicycle Transportation Alliance, Wash. Co. liaison
+  county:
+  department: Bicycle Transportation Alliance, Wash. Co. liaison
   email: lisa@btaoregon.og
   phone: 503-226-0676 Xt 18
 
 - name: Jenny Cadigan, ED
-  organization: Westside Transportation Alliance
+  county:
+  department: Westside Transportation Alliance
   email: jenny@wta-tma.org
   phone: 503-906-7941
 
 - name: Jonathan Maus, ED
-  organization: BikePortland
+  county:
+  department: BikePortland
   email: jonathan@bikeporland.org
   phone: 503-706-8804
 
 - name: Steve Boughton, ED
-  organization: Washington County Bicycle Transportation Coalition
+  county: Washington County
+  department: Bicycle Transportation Coalition
   email: info@washcobtc.org
   phone: 503-356-9740
