@@ -3,7 +3,8 @@ title: Contact Query App
 email: your-email@domain.com
 description: "Fast, simple, responsive contact finder."
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
+baseurl: ""
 twitter_username: jekyllrb
 github_username:  jekyll
 
