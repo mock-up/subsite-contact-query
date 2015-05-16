@@ -6,6 +6,7 @@
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
 @import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -48,6 +49,14 @@ thead, tfoot {
 
 .nav>li.active {
   background-color: #fff;
+}
+
+.navbar-brand {
+  font-weight: 100;
+  font-family: Lobster, cursive;
+  padding-top: 10px;
+  font-size: 24px;
+  line-height: 30px;
 }
 
 .navbar-nav>li>a {
