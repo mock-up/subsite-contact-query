@@ -2,8 +2,8 @@
 /* fonts
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro);
-@import url(http://fonts.googleapis.com/css?family=Merriweather);
 @import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Lobster);
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -14,8 +14,6 @@
 html, body { height: 100%; }
 
 body { font-family: "Source Sans Pro", Arial, Helvetica, sans-serif; }
-
-/*body.body-navbar-padding { /* bump for Bootstrap menu  navigation */ padding-top: 40px; }*/
 
 p, ul, ol { font-size: 20px; font-family: "Source Sans Pro", Arial, Helvetica, sans-serif; line-height: 28px; }
 
@@ -48,6 +46,14 @@ thead, tfoot {
 
 .nav>li.active {
   background-color: #fff;
+}
+
+.navbar-brand {
+  font-weight: 100;
+  font-family: Lobster, cursive;
+  padding-top: 10px;
+  font-size: 24px;
+  line-height: 30px;
 }
 
 .navbar-nav>li>a {
@@ -166,7 +172,7 @@ thead, tfoot {
 @media (min-width: 640px) {
   h1.page-title {
     font-weight: 400;
-    font-family: "Merriweather", "Times New Roman", Times, serif;
+    font-family: "Raleway", "Times New Roman", Times, serif;
     font-size: 48px;
     color: rgb(0,120,174);
   }
@@ -174,14 +180,14 @@ thead, tfoot {
   h2.page-subtitle {
     font-weight: 100;
     font-size: 36px;
-    font-family: "Merriweather", "Times New Roman", Times, serif;
+    font-family: "Raleway", "Times New Roman", Times, serif;
   }
 }
 
 @media (max-width: 640px) {
   h1.page-title {
     font-weight: 400;
-    font-family: "Merriweather", "Times New Roman", Times, serif;
+    font-family: "Raleway", "Times New Roman", Times, serif;
     font-size: 24px;
     color: rgb(0,120,174);
   }
@@ -189,7 +195,7 @@ thead, tfoot {
   h2.page-subtitle {
     font-weight: 100;
     font-size: 18px;
-    font-family: "Merriweather", "Times New Roman", Times, serif;
+    font-family: "Raleway", "Times New Roman", Times, serif;
   }
 }
 
