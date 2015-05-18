@@ -1,3 +1,6 @@
+---
+---
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 /* fonts
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
@@ -174,6 +177,7 @@ thead, tfoot {
     font-weight: 400;
     font-family: "Raleway", "Times New Roman", Times, serif;
     font-size: 48px;
+    padding-bottom: 12px;
     color: rgb(0,120,174);
   }
 
@@ -201,7 +205,7 @@ thead, tfoot {
 
 .copy-section {
   background-color: #fff;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
   margin-bottom: 36px;
 }
 

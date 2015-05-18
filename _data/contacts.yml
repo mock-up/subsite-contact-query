@@ -1,89 +1,119 @@
-- name: Philip Bransford
+- name: Arlene Holladay
   county: Washington County
   department: CAO
-  email: philip_bransford@co.washington.or.us
-  phone: 503-846-8685
+  email: arlene_holladay@washco.com
+  phone: 503-555-1212
 
-- name: Cindy Downey
+- name: Stan Slabaugh
   county: Washington County
-  department: Community Corrections
-  email: Cindy_Downey@co.washington.or.us
-  phone: 503-846-3456
+  department: ITS
+  email: stan_slabaugh@washco.com
+  phone: 503-555-1212
 
-- name: Jodi Nielsen
+- name: Waldo Sheffler
   county: Washington County
-  department: Cooperative Library Services
-  email: nielsen@wccls.org
-  phone: 503-846-3525
+  department: ITS
+  email: waldo_sheffler@washco.com
+  phone: 503-555-1212
 
-- name: Deborah Wood
+- name: Ethelyn Alegria
   county: Washington County
-  department: HHS Animal Services
-  email: deborah_wood@co.washington.or.us
-  phone: 503-846-7148
+  department: Animal Services
+  email: ethelyn_alegria@washco.com
+  phone: 503-666-1212
 
-- name: Deborah Letourneau
+- name: Kera Bonacci
   county: Washington County
-  department: HHS Department of Veteran Services
-  email: deborah.l.letourneau@state.or.us
-  phone: 503-846-3083
+  department: Animal Services
+  email: kera_bonacci@washco.com
+  phone: 503-666-1212
 
-- name: Brian Stafki
+- name: Vernell Funches
   county: Washington County
-  department: Solid Waste and Recycling
-  email: brian_stafki@co.washington.or.us
-  phone: 503-846-3651
+  department: Animal Services
+  email: vernell_funches@washco.com
+  phone: 503-666-1212
 
-- name: Stephen Roberts
+- name: Tiera Grace
   county: Washington County
-  department: LUT
-  email: stephen_roberts@co.washington.or.us
-  phone: 503-846-4963
+  department: Animal Services
+  email: tiera_grace@washco.com
+  phone: 503-666-1212
 
-- name: Marcy Allie
+- name: Clifton Peagler
   county: Washington County
-  department: Sheriff's Office
-  email: Marcy_Allie@co.washington.or.us
-  phone: 503-846-6307
+  department: CAO
+  email: clifton_peagler@washco.com
+  phone: 503-777-1212
 
-- name: Annette Evans
-  county:
-  department: Housing and Support Services Network
-  email:
-  phone: 503-846-4760
-
-- name: Glenn Montgomery, ED
-  county:
-  department: Vision Action Network
-  email: glenn_montgomeryco.washington.or.us
-  phone: 503-846-5792
-
-- name: Pam Treece, ED
-  county:
-  department: Westside Economic Alliance
-  email: ptreece@westsdiealliance.org
-  phone: 503-968-3100
-
-- name: Lisa Frank
-  county:
-  department: Bicycle Transportation Alliance, Wash. Co. liaison
-  email: lisa@btaoregon.og
-  phone: 503-226-0676
-
-- name: Jenny Cadigan, ED
-  county:
-  department: Westside Transportation Alliance
-  email: jenny@wta-tma.org
-  phone: 503-906-7941
-
-- name: Jonathan Maus, ED
-  county:
-  department: BikePortland
-  email: jonathan@bikeporland.org
-  phone: 503-706-8804
-
-- name: Steve Boughton, ED
+- name: Hyun Determan
   county: Washington County
-  department: Bicycle Transportation Coalition
-  email: info@washcobtc.org
-  phone: 503-356-9740
+  department: Public Works
+  email: hyun_determan@washco.com
+  phone: 503-777-1212
+
+- name: Bryce Moriarity
+  county: Washington County
+  department: Public Works
+  email: bryce_moriarity@washco.com
+  phone: 503-777-1212
+
+- name: Neal Tessier
+  county: Washington County
+  department: Public Works
+  email: neal_tessier@washco.com
+  phone: 503-777-1212
+
+- name: Kim Mei
+  county: Multnomah County
+  department: Public Works
+  email: kim_mei@multco.com
+  phone: 503-888-1212
+
+- name: Sherly Birch
+  county: Multnomah County
+  department: Parks and Recreation
+  email: sherly_birch@multco.com
+  phone: 503-888-1212
+
+- name: Shaquita Lechuga
+  county: Multnomah County
+  department: Parks and Recreation
+  email: shaquita_lechuga@multco.com
+  phone: 503-888-1212
+
+- name: Shanna Gilligan
+  county: Washington County
+  department: Parks and Recreation
+  email: shanna_gilligan@washco.com
+  phone: 503-888-1212
+
+- name: Lauralee Rocha
+  county: Clackamas County
+  department: Parks and Recreation
+  email: lauralee_rocha@domain.com
+  phone: 503-999-1212
+
+- name: Marcelina Coomer
+  county: Clackamas County
+  department: Facilities
+  email: marcelina_coomer@clackco.com
+  phone: 503-999-1212
+
+- name: Silas Levier
+  county: Clackamas County
+  department: Facilities
+  email: silas_levier@clackco.com
+  phone: 503-999-1212
+
+- name: Ginny Slovak
+  county: Clackamas County
+  department: Facilities
+  email: ginny_slovak@clackco.com
+  phone: 503-999-1212
+
+- name: Karry Golay
+  county: Washington County
+  department: Facilities
+  email: karry_golay@washco.com
+  phone: 503-123-4567
