@@ -8,24 +8,18 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-<<<<<<< HEAD
         <a class="navbar-brand" rel="home" href="{{ site.baseurl }}" title="{{ site.title }}">
             <img style="max-width:80px; margin-top: -7px;"
                  src="{{ "/assets/images/logo-ring.png" | prepend: site.baseurl }}">
         </a>
       </div>
-      <div id="navbar" class="collapse navbar-collapse">
+      <div id="navbar" class="collapse navbar-collapse navbar-pad-top">
+        <ul class="nav navbar-nav hidden-xs hidden-sm">
+          <li class="navbar-nohover">{{ site.title }}</li>
+        </ul>
         <ul class="nav navbar-nav navbar-right">
           <li{% if page.active == 'table' %} class="active"{% endif %}><a href="/"><i class="fa fa-table"></i>&nbsp;Table</a></li>
           <li{% if page.active == 'cards' %} class="active"{% endif %}><a href="/cards"><i class="fa fa-th-large"></i>&nbsp;Cards</a></li>
-=======
-        <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
-      </div>
-      <div id="navbar" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li{% if page.active == 'table' %} class="active"{% endif %}><a href="{{ site.baseurl }}/"><i class="fa fa-table"></i>&nbsp;Table</a></li>
-          <li{% if page.active == 'cards' %} class="active"{% endif %}><a href="{{ site.baseurl }}/cards"><i class="fa fa-th-large"></i>&nbsp;Cards</a></li>
->>>>>>> c9d2b0be06eacbc5ad402ccf3d855294f0e32b5a
         </ul>
       </div><!--/.nav-collapse -->
     </div>
